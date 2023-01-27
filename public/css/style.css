@@ -8,6 +8,10 @@ h1, h2, h3 {
     padding: 1.5em;
     font-size: 3em;
     color: #173968;
+}@media(max-width:550px){
+    .titular {
+        font-size: 1em;
+    }
 }
 
 .ruta {
