@@ -45,7 +45,7 @@ class TourController extends Controller
         ]);
 
 
-        Mail::to('ripmarenko@gmial.com')->send(new TourRegister($tour));
+        Mail::to('marencocode@gmail.com')->send(new TourRegister($tour));
         session(['register'=>'true']);
         $request->session()->flash('success', 'Tu registro se ha realizado con éxito');
 
