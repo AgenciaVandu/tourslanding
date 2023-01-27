@@ -12,6 +12,7 @@ class DataTours extends Component
     public $count_milpa;
     public $count_azul;
     public $count_puuc;
+    public $data=[];
 
     public function mount(){
         $this->count_enequen = Tour::where('tour_route','enequen')->count();
@@ -20,10 +21,12 @@ class DataTours extends Component
         $this->count_puuc = Tour::where('tour_route','puuc')->count();
     }
 
+    public function selectTour($tour_route) {
+        $this->data = Tour::where('tour_route',$tour_route)->get();
+    }
+
     public function render()
     {
-        return view('livewire.data-tours',[
-            'data' => Tour::all()
-        ]);
+        return view('livewire.data-tours');
     }
 }

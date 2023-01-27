@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\TourRegister;
 use App\Models\Tour;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class TourController extends Controller
 {
@@ -27,7 +29,7 @@ class TourController extends Controller
             $contact_me = 1;
         }
 
-        Tour::create([
+        $tour = Tour::create([
             'name' => $request->name,
             'last_name' => $request->last_name,
             'country' => $request->country,
@@ -42,6 +44,8 @@ class TourController extends Controller
             'tour_route' => $request->tour_route,
         ]);
 
+
+        Mail::to('test@example.com')->send(new TourRegister($tour));
         session(['register'=>'true']);
         $request->session()->flash('success', 'Tu registro se ha realizado con éxito');
 
