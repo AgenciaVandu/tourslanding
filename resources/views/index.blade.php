@@ -743,10 +743,17 @@
                                 <li>Usar zapatos cómodos</li>
                                 <li>Llevar traje de baño, toalla y cambio de ropa</li>
 
-                                <div class="inscribirme mt-3">
-                                    <button class="btn btn-primary" data-toggle="modal"
-                                        data-target="#enequen">Inscribirme</button>
-                                </div>
+                                @if (session('register'))
+                                    <div class="inscribirme mt-3">
+                                        <button disabled class="btn btn-primary" data-toggle="modal"
+                                            data-target="#henequen">Inscribirme</button>
+                                    </div>
+                                @else
+                                    <div class="inscribirme mt-3">
+                                        <button class="btn btn-primary" data-toggle="modal"
+                                            data-target="#henequen">Inscribirme</button>
+                                    </div>
+                                @endif
                             </div>
                         </div>
                     </div>
