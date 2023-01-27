@@ -46,9 +46,9 @@ class TourController extends Controller
 
 
         Mail::to('marencocode@gmail.com')->send(new TourRegister($tour));
-        session(['register'=>'true']);
+        /* session(['register'=>'true']);
         $request->session()->flash('success', 'Tu registro se ha realizado con éxito');
 
-        return back();
+        return back(); */
     }
 }
