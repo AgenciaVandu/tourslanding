@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap');
+
+h1, h2, h3 {
+    font-family: 'Passion One', cursive;
+}
+
+.titular {
+    padding: 1.5em;
+    font-size: 3em;
+    color: #173968;
+}
+
+.ruta {
+    background-image: url(/img/fondo1.svg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    min-height: 31em;
+} @media (max-width:991px) {
+    .ruta {
+        background-image: url(/img/fondo-ruta.svg);
+        background-position: center bottom;
+    }
+    
+} @media (max-width:767px) {
+    .ruta {
+        background-image: url(/img/fondo-ruta-2.svg);
+        background-position: center bottom;
+    }
+    
+} @media (max-width:575px) {
+    .ruta {
+        background-image: url(/img/fondo-ruta-3.svg);
+        background-position: center bottom;
+    }
+    
+}
+.ruta-2 {
+    background-image: url(/img/fondo2.svg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    min-height: 34em;
+}@media (max-width:991px) {
+    .ruta-2 {
+        background-image: url(/img/fondo-ruta.svg);
+        background-position: center bottom;
+    }
+    
+}@media (max-width:767px) {
+    .ruta-2 {
+        background-image: url(/img/fondo-ruta-2.svg);
+        background-position: center bottom;
+    }
+    
+}@media (max-width:575px) {
+    .ruta-2 {
+        background-image: url(/img/fondo-ruta-3.svg);
+        background-position: center bottom;
+    }
+    
+}
+.fondo-rutapuuc {
+    background-image: url(/img/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    min-height: 59em;
+}
+.titular-ruta {
+    color: #fff;
+}
+li {
+    font-size: 1em;
+    color: #fff;
+    line-height: 1.4em;
+    font-weight: 800;
+}
+
+.inscribirme .btn-primary {
+    font-size: 1.7em;
+    font-family: 'Passion One', cursive;
+    padding: .14em 1em .14em 1em;
+    letter-spacing: .05em;
+    border-radius:1em;
+    background-color: #fff;
+    color: #0A62AC;
+}
+
+.boton-enviar .btn-primary{
+    font-size: 1.4em;
+    font-weight: 700;
+    padding: .14em 1.5em .14em 1.5em;
+    letter-spacing: .05em;
+    border-radius:1em;
+    background-color: #0A62AC;
+    border: none;
+}
