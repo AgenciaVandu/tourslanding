@@ -12,6 +12,13 @@
 </head>
 
 <body>
+    <div class="lenguage fixed-top"style="background-color: #173968;">
+        <div class="container text-right">
+            <li style="list-style: none;" class="pt-1 pb-1">
+                <a href="/" style="color: #fff;">Español</a> - <span><a href="/eng" style="color: #fff;">English </a></span>
+            </li>
+        </div>
+    </div>
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">

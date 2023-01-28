@@ -33,6 +33,12 @@ h1, h2, h3 {
         background-position: center bottom;
     }
     
+}@media (max-width:391px) {
+    .ruta {
+        background-image: url(/img/fondo-ruta-4.svg) ;
+        background-position: center bottom;
+    }
+    
 }
 .ruta-2 {
     background-image: url(/img/fondo2.svg);

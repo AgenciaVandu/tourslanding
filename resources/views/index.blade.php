@@ -120,6 +120,9 @@
                         </div>
                     </form>
                 </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                </div>
             </div>
         </div>
     </div>
@@ -190,7 +193,11 @@
                         <div class="text-center boton-enviar">
                             <button type="submit" class="btn btn-primary">Enviar</button>
                         </div>
+                        
                     </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
                 </div>
             </div>
         </div>
@@ -264,6 +271,9 @@
                         </div>
                     </form>
                 </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                </div>
             </div>
         </div>
     </div>
@@ -335,6 +345,9 @@
                             <button type="submit" class="btn btn-primary">Enviar</button>
                         </div>
                     </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
                 </div>
             </div>
         </div>
@@ -743,10 +756,17 @@
                                 <li>Usar zapatos cómodos</li>
                                 <li>Llevar traje de baño, toalla y cambio de ropa</li>
 
-                                <div class="inscribirme mt-3">
-                                    <button class="btn btn-primary" data-toggle="modal"
-                                        data-target="#enequen">Inscribirme</button>
-                                </div>
+                                @if (session('register'))
+                                    <div class="inscribirme mt-3">
+                                        <button disabled class="btn btn-primary" data-toggle="modal"
+                                            data-target="#henequen">Inscribirme</button>
+                                    </div>
+                                @else
+                                    <div class="inscribirme mt-3">
+                                        <button class="btn btn-primary" data-toggle="modal"
+                                            data-target="#henequen">Inscribirme</button>
+                                    </div>
+                                @endif
                             </div>
                         </div>
                     </div>
