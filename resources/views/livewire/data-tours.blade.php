@@ -215,7 +215,7 @@
                                             <td
                                                 class="relative whitespace-nowrap py-2 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
                                                 <a wire:click="selectTour('enequen')"
-                                                    class="cursor-pointer text-indigo-600 hover:text-indigo-900">Ver<span
+                                                    class="cursor-pointer text-indigo-600 hover:text-indigo-900"><span
                                                         class="sr-only">, AAPS0L</span></a>
                                             </td>
                                         </tr>
