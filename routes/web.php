@@ -20,6 +20,9 @@ Route::get('/', function (Request $request) {
     return view('index');
 });
 
+Route::get('/eng', function () {
+    return view('index-eng');
+});
 Route::post('send',[TourController::class,'send'])->name('send-form');
 
 Route::middleware(['auth:sanctum',config('jetstream.auth_session'),'verified'])->group(function () {
