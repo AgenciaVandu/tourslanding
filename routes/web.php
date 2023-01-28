@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function (Request $request) {
-    /* $request->session()->forget('register'); */
+    $request->session()->forget('register');
     return view('index');
 });
 
@@ -24,7 +24,7 @@ Route::post('send',[TourController::class,'send'])->name('send-form');
 
 Route::middleware(['auth:sanctum',config('jetstream.auth_session'),'verified'])->group(function () {
     Route::get('/dashboard', function () {
-        
+
         return view('dashboard');
     })->name('dashboard');
 });

@@ -8,6 +8,10 @@ h1, h2, h3 {
     padding: 1.5em;
     font-size: 3em;
     color: #173968;
+}@media(max-width:550px){
+    .titular {
+        font-size: 1em;
+    }
 }
 
 .ruta {
@@ -33,6 +37,24 @@ h1, h2, h3 {
         background-position: center bottom;
     }
     
+}@media (max-width:455px) {
+    .ruta {
+        background-image: url(/img/fondo-ruta-5.svg) ;
+        background-position: center bottom;
+    }
+    
+}@media (max-width:414px) {
+    .ruta {
+        background-image: url(/img/fondo-ruta-8.svg) ;
+        background-position: center bottom;
+    }
+    
+}@media (max-width:391px) {
+    .ruta {
+        background-image: url(/img/fondo-ruta-4.svg) ;
+        background-position: center bottom;
+    }
+    
 }
 .ruta-2 {
     background-image: url(/img/fondo2.svg);
@@ -54,6 +76,18 @@ h1, h2, h3 {
 }@media (max-width:575px) {
     .ruta-2 {
         background-image: url(/img/fondo-ruta-3.svg);
+        background-position: center bottom;
+    }
+    
+}@media (max-width:455px) {
+    .ruta-2 {
+        background-image: url(/img/fondo-ruta-7.svg) ;
+        background-position: center bottom;
+    }
+    
+}@media (max-width:391px) {
+    .ruta-2 {
+        background-image: url(/img/fondo-ruta-4.svg) ;
         background-position: center bottom;
     }
     
