@@ -114,7 +114,7 @@
                                 información</label>
                         </div>
 
-                        <input type="hidden" name="tour_route" value="Enequen">
+                        <input type="hidden" name="tour_route" value="Henequen">
                         <div class="text-center boton-enviar">
                             <button type="submit" class="btn btn-primary">Enviar</button>
                         </div>
@@ -193,7 +193,7 @@
                         <div class="text-center boton-enviar">
                             <button type="submit" class="btn btn-primary">Enviar</button>
                         </div>
-                        
+
                     </form>
                 </div>
                 <div class="modal-footer">

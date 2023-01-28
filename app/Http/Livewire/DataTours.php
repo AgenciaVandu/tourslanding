@@ -2,8 +2,11 @@
 
 namespace App\Http\Livewire;
 
+use App\Exports\ToursExport;
 use App\Models\Tour;
+use Carbon\Carbon;
 use Livewire\Component;
+use Maatwebsite\Excel\Facades\Excel;
 
 class DataTours extends Component
 {
@@ -23,6 +26,10 @@ class DataTours extends Component
 
     public function selectTour($tour_route) {
         $this->data = Tour::where('tour_route',$tour_route)->get();
+    }
+
+    public function export(){
+        return  Excel::download(new ToursExport, 'users_register.'.Carbon::now() .'.xlsx');
     }
 
     public function render()
