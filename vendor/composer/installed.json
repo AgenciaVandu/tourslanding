@@ -117,6 +117,7 @@
             "install-path": "../brick/math"
         },
         {
+<<<<<<< HEAD
             "name": "composer/semver",
             "version": "3.3.2",
             "version_normalized": "3.3.2.0",
@@ -201,6 +202,8 @@
             "install-path": "./semver"
         },
         {
+=======
+>>>>>>> 7fed9c30c3ae3497538ceaf90cb20b05ce9c3d47
             "name": "dasprid/enum",
             "version": "1.0.3",
             "version_normalized": "1.0.3.0",
@@ -757,6 +760,7 @@
             "install-path": "../egulias/email-validator"
         },
         {
+<<<<<<< HEAD
             "name": "ezyang/htmlpurifier",
             "version": "v4.16.0",
             "version_normalized": "4.16.0.0",
@@ -821,6 +825,8 @@
             "install-path": "../ezyang/htmlpurifier"
         },
         {
+=======
+>>>>>>> 7fed9c30c3ae3497538ceaf90cb20b05ce9c3d47
             "name": "fakerphp/faker",
             "version": "v1.21.0",
             "version_normalized": "1.21.0.0",
@@ -2728,6 +2734,7 @@
             "install-path": "../livewire/livewire"
         },
         {
+<<<<<<< HEAD
             "name": "maatwebsite/excel",
             "version": "3.1.46",
             "version_normalized": "3.1.46.0",
@@ -3005,6 +3012,8 @@
             "install-path": "../markbaker/matrix"
         },
         {
+=======
+>>>>>>> 7fed9c30c3ae3497538ceaf90cb20b05ce9c3d47
             "name": "mobiledetect/mobiledetectlib",
             "version": "2.8.41",
             "version_normalized": "2.8.41.0",
@@ -3306,6 +3315,7 @@
             "install-path": "../myclabs/deep-copy"
         },
         {
+<<<<<<< HEAD
             "name": "myclabs/php-enum",
             "version": "1.8.4",
             "version_normalized": "1.8.4.0",
@@ -3372,6 +3382,8 @@
             "install-path": "../myclabs/php-enum"
         },
         {
+=======
+>>>>>>> 7fed9c30c3ae3497538ceaf90cb20b05ce9c3d47
             "name": "nesbot/carbon",
             "version": "2.65.0",
             "version_normalized": "2.65.0.0",
@@ -4057,6 +4069,7 @@
             "install-path": "../phar-io/version"
         },
         {
+<<<<<<< HEAD
             "name": "phpoffice/phpspreadsheet",
             "version": "1.27.0",
             "version_normalized": "1.27.0.0",
@@ -4165,6 +4178,8 @@
             "install-path": "../phpoffice/phpspreadsheet"
         },
         {
+=======
+>>>>>>> 7fed9c30c3ae3497538ceaf90cb20b05ce9c3d47
             "name": "phpoption/phpoption",
             "version": "1.9.0",
             "version_normalized": "1.9.0.0",

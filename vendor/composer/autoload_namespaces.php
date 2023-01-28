@@ -7,6 +7,9 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Mockery' => array($vendorDir . '/mockery/mockery/library'),
+<<<<<<< HEAD
     'HTMLPurifier' => array($vendorDir . '/ezyang/htmlpurifier/library'),
+=======
+>>>>>>> 7fed9c30c3ae3497538ceaf90cb20b05ce9c3d47
     'Detection' => array($vendorDir . '/mobiledetect/mobiledetectlib/namespaced'),
 );

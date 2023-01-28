@@ -1,11 +1,20 @@
 <?php return array(
     'root' => array(
+<<<<<<< HEAD
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'reference' => '8fea17952d8dd7047c7e371971f23c88dd298f8c',
+=======
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'type' => 'project',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+>>>>>>> 7fed9c30c3ae3497538ceaf90cb20b05ce9c3d47
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -28,6 +37,7 @@
             'reference' => '459f2781e1a08d52ee56b0b1444086e038561e3f',
             'dev_requirement' => false,
         ),
+<<<<<<< HEAD
         'composer/semver' => array(
             'pretty_version' => '3.3.2',
             'version' => '3.3.2.0',
@@ -37,6 +47,8 @@
             'reference' => '3953f23262f2bff1919fc82183ad9acb13ff62c9',
             'dev_requirement' => false,
         ),
+=======
+>>>>>>> 7fed9c30c3ae3497538ceaf90cb20b05ce9c3d47
         'cordoval/hamcrest-php' => array(
             'dev_requirement' => true,
             'replaced' => array(
@@ -121,6 +133,7 @@
             'reference' => 'b531a2311709443320c786feb4519cfaf94af796',
             'dev_requirement' => false,
         ),
+<<<<<<< HEAD
         'ezyang/htmlpurifier' => array(
             'pretty_version' => 'v4.16.0',
             'version' => '4.16.0.0',
@@ -130,6 +143,8 @@
             'reference' => '523407fb06eb9e5f3d59889b3978d5bfe94299c8',
             'dev_requirement' => false,
         ),
+=======
+>>>>>>> 7fed9c30c3ae3497538ceaf90cb20b05ce9c3d47
         'fakerphp/faker' => array(
             'pretty_version' => 'v1.21.0',
             'version' => '1.21.0.0',
@@ -446,12 +461,21 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
+<<<<<<< HEAD
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
             'reference' => '8fea17952d8dd7047c7e371971f23c88dd298f8c',
+=======
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+>>>>>>> 7fed9c30c3ae3497538ceaf90cb20b05ce9c3d47
             'dev_requirement' => false,
         ),
         'laravel/pint' => array(
@@ -544,6 +568,7 @@
             'reference' => '8667099d5889cab760d1d0083cdcebaa3d595733',
             'dev_requirement' => false,
         ),
+<<<<<<< HEAD
         'maatwebsite/excel' => array(
             'pretty_version' => '3.1.46',
             'version' => '3.1.46.0',
@@ -580,6 +605,8 @@
             'reference' => '728434227fe21be27ff6d86621a1b13107a2562c',
             'dev_requirement' => false,
         ),
+=======
+>>>>>>> 7fed9c30c3ae3497538ceaf90cb20b05ce9c3d47
         'mobiledetect/mobiledetectlib' => array(
             'pretty_version' => '2.8.41',
             'version' => '2.8.41.0',
@@ -622,6 +649,7 @@
             'reference' => '14daed4296fae74d9e3201d2c4925d1acb7aa614',
             'dev_requirement' => true,
         ),
+<<<<<<< HEAD
         'myclabs/php-enum' => array(
             'pretty_version' => '1.8.4',
             'version' => '1.8.4.0',
@@ -631,6 +659,8 @@
             'reference' => 'a867478eae49c9f59ece437ae7f9506bfaa27483',
             'dev_requirement' => false,
         ),
+=======
+>>>>>>> 7fed9c30c3ae3497538ceaf90cb20b05ce9c3d47
         'nesbot/carbon' => array(
             'pretty_version' => '2.65.0',
             'version' => '2.65.0.0',
@@ -712,6 +742,7 @@
             'reference' => '4f7fd7836c6f332bb2933569e566a0d6c4cbed74',
             'dev_requirement' => true,
         ),
+<<<<<<< HEAD
         'phpoffice/phpspreadsheet' => array(
             'pretty_version' => '1.27.0',
             'version' => '1.27.0.0',
@@ -721,6 +752,8 @@
             'reference' => 'eeb8582f9cabf5a7f4ef78015691163233a1834f',
             'dev_requirement' => false,
         ),
+=======
+>>>>>>> 7fed9c30c3ae3497538ceaf90cb20b05ce9c3d47
         'phpoption/phpoption' => array(
             'pretty_version' => '1.9.0',
             'version' => '1.9.0.0',
