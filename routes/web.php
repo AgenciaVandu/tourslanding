@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\TourController;
+use App\Models\Tour;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -16,12 +17,20 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function (Request $request) {
-    $request->session()->forget('register');
-    return view('index');
+    /* $request->session()->forget('register'); */
+    $count_henequen = Tour::where('tour_route','Henequen')->count();
+    $count_milpa = Tour::where('tour_route','milpa')->count();
+    $count_azul = Tour::where('tour_route','azul')->count();
+    $count_puuc = Tour::where('tour_route','puuc')->count();
+    return view('index',compact('count_henequen', 'count_milpa', 'count_azul','count_puuc'));
 });
 
 Route::get('/eng', function () {
-    return view('index-eng');
+    $count_henequen = Tour::where('tour_route','henequen')->count();
+    $count_milpa = Tour::where('tour_route','milpa')->count();
+    $count_azul = Tour::where('tour_route','azul')->count();
+    $count_puuc = Tour::where('tour_route','puuc')->count();
+    return view('index-eng',compact('count_henequen', 'count_milpa', 'count_azul','count_puuc'));
 });
 Route::post('send',[TourController::class,'send'])->name('send-form');
 

@@ -18,7 +18,7 @@ class DataTours extends Component
     public $data=[];
 
     public function mount(){
-        $this->count_enequen = Tour::where('tour_route','enequen')->count();
+        $this->count_enequen = Tour::where('tour_route','henequen')->count();
         $this->count_milpa = Tour::where('tour_route','milpa')->count();
         $this->count_azul = Tour::where('tour_route','azul')->count();
         $this->count_puuc = Tour::where('tour_route','puuc')->count();

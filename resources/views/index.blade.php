@@ -386,7 +386,7 @@
                                 <li>Usar zapatos cómodos</li>
                                 <li>Llevar traje de baño, toalla y cambio de ropa</li>
 
-                                @if (session('register'))
+                                @if (session('register') || $count_henequen == 60)
                                     <div class="inscribirme mt-3">
                                         <button disabled class="btn btn-primary" data-toggle="modal"
                                             data-target="#henequen">Inscribirme</button>
@@ -432,7 +432,7 @@
                                 <li>Usar zapatos cómodos</li>
                                 <li>Llevar traje de baño, toalla y cambio de ropa</li>
 
-                                @if (session('register'))
+                                @if (session('register') || $count_milpa == 50)
                                     <div class="inscribirme mt-3">
                                         <button disabled class="btn btn-primary" data-toggle="modal"
                                             data-target="#milpa">Inscribirme</button>
@@ -474,7 +474,7 @@
                                 <li>Usar zapatos cómodos</li>
                                 <li>Llevar traje de baño, toalla y cambio de ropa</li>
 
-                                @if (session('register'))
+                                @if (session('register') || $count_azul == 50)
                                     <div class="inscribirme mt-3">
                                         <button disabled class="btn btn-primary" data-toggle="modal"
                                             data-target="#azul">Inscribirme</button>
@@ -520,7 +520,7 @@
                                     Experiencia no recomendada para gente claustrofóbica
                                 </li>
 
-                                @if (session('register'))
+                                @if (session('register') || $count_puuc == 40)
                                     <div class="inscribirme mt-3">
                                         <button disabled class="btn btn-primary" data-toggle="modal"
                                             data-target="#puuc">Inscribirme</button>
@@ -571,7 +571,7 @@
                                 <li>Usar zapatos cómodos</li>
                                 <li>Llevar traje de baño, toalla y cambio de ropa</li>
 
-                                @if (session('register'))
+                                @if (session('register') || $count_henequen == 60)
                                     <div class="inscribirme mt-3">
                                         <button disabled class="btn btn-primary" data-toggle="modal"
                                             data-target="#henequen">Inscribirme</button>
@@ -617,7 +617,7 @@
                                 <li>Usar zapatos cómodos</li>
                                 <li>Llevar traje de baño, toalla y cambio de ropa</li>
 
-                                @if (session('register'))
+                                @if (session('register') || $count_milpa == 50)
                                     <div class="inscribirme mt-3">
                                         <button disabled class="btn btn-primary" data-toggle="modal"
                                             data-target="#milpa">Inscribirme</button>
@@ -659,7 +659,7 @@
                                 <li>Usar zapatos cómodos</li>
                                 <li>Llevar traje de baño, toalla y cambio de ropa</li>
 
-                                @if (session('register'))
+                                @if (session('register') || $count_azul == 50)
                                     <div class="inscribirme mt-3">
                                         <button disabled class="btn btn-primary" data-toggle="modal"
                                             data-target="#azul">Inscribirme</button>
@@ -705,7 +705,7 @@
                                     Experiencia no recomendada para gente claustrofóbica
                                 </li>
 
-                                @if (session('register'))
+                                @if (session('register') || $count_puuc == 40)
                                     <div class="inscribirme mt-3">
                                         <button disabled class="btn btn-primary" data-toggle="modal"
                                             data-target="#puuc">Inscribirme</button>
@@ -756,7 +756,7 @@
                                 <li>Usar zapatos cómodos</li>
                                 <li>Llevar traje de baño, toalla y cambio de ropa</li>
 
-                                @if (session('register'))
+                                @if (session('register') || $count_henequen == 60)
                                     <div class="inscribirme mt-3">
                                         <button disabled class="btn btn-primary" data-toggle="modal"
                                             data-target="#henequen">Inscribirme</button>
@@ -802,7 +802,7 @@
                                 <li>Usar zapatos cómodos</li>
                                 <li>Llevar traje de baño, toalla y cambio de ropa</li>
 
-                                @if (session('register'))
+                                @if (session('register') || $count_milpa == 50)
                                     <div class="inscribirme mt-3">
                                         <button disabled class="btn btn-primary" data-toggle="modal"
                                             data-target="#milpa">Inscribirme</button>
@@ -844,7 +844,7 @@
                                 <li>Usar zapatos cómodos</li>
                                 <li>Llevar traje de baño, toalla y cambio de ropa</li>
 
-                                @if (session('register'))
+                                @if (session('register') || $count_azul == 50)
                                     <div class="inscribirme mt-3">
                                         <button disabled class="btn btn-primary" data-toggle="modal"
                                             data-target="#azul">Inscribirme</button>
@@ -890,7 +890,7 @@
                                     Experiencia no recomendada para gente claustrofóbica
                                 </li>
 
-                                @if (session('register'))
+                                @if (session('register') || $count_puuc == 40)
                                     <div class="inscribirme mt-3">
                                         <button disabled class="btn btn-primary" data-toggle="modal"
                                             data-target="#puuc">Inscribirme</button>
