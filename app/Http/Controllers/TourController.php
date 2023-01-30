@@ -52,8 +52,8 @@ class TourController extends Controller
         Mail::to('sharon.reyes@yucatan.gob.mx')->send(new TourRegister($tour));
         Mail::to('cecilia@beyondyucatan.travel')->send(new TourRegister($tour));
 
-        /* Mail::to('ripmarenko@gmail.com')->send(new TourRegister($tour));
-        Mail::to('ab@agenciavandu.com')->send(new TourRegister($tour)); */
+        Mail::to('ripmarenko@gmail.com')->send(new TourRegister($tour));
+        Mail::to('ab@agenciavandu.com')->send(new TourRegister($tour));
 
         session(['register'=>'true']);
         $request->session()->flash('success', 'Tu registro se ha realizado con éxito');
