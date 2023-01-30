@@ -13,6 +13,7 @@
 | Emergency Name      |{{ $emergency_name  }}|
 | Relationship      |{{ $relationship  }}|
 | Menu Type      |{{ $menu_type  }}|
+| Allergies     |{{ $allergies  }}|
 | Contact      |@if ($contact_me == 1) Sí @else No @endif|
 | Tour      |{{ $tour_route  }}|
 </x-mail::table>
