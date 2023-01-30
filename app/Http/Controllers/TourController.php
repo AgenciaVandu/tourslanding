@@ -27,6 +27,8 @@ class TourController extends Controller
 
         if ($request->contact_me == 'on') {
             $contact_me = 1;
+        }else{
+            $contact_me = 0;
         }
 
         $tour = Tour::create([

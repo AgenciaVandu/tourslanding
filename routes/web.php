@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function (Request $request) {
-    $request->session()->forget('register');
+    /* $request->session()->forget('register'); */
     return view('index');
 });
 
