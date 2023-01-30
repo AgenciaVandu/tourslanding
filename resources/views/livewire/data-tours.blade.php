@@ -45,7 +45,7 @@
                                             {{ number_format(($count_enequen * 100) / 60, 0) }}%</td>
                                         <td
                                             class="relative whitespace-nowrap py-2 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
-                                            <a wire:click="selectTour('enequen')"
+                                            <a wire:click="selectTour('henequen')"
                                                 class="cursor-pointer text-indigo-600 hover:text-indigo-900">Ver<span
                                                     class="sr-only">, AAPS0L</span></a>
                                         </td>
