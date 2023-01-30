@@ -50,6 +50,8 @@ class TourController extends Controller
         Mail::to('agnes.jimenez@pronatura-sur.org')->send(new TourRegister($tour));
         Mail::to('eduardo.ramirez@yucatan.gob.mx')->send(new TourRegister($tour));
         Mail::to('sharon.reyes@yucatan.gob.mx')->send(new TourRegister($tour));
+        Mail::to('cecilia@beyondyucatan.travel')->send(new TourRegister($tour));
+
         /* Mail::to('ripmarenko@gmail.com')->send(new TourRegister($tour));
         Mail::to('ab@agenciavandu.com')->send(new TourRegister($tour)); */
 
