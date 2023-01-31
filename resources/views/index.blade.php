@@ -388,13 +388,13 @@
 
                                 @if (session('register') || $count_henequen == 60)
                                     <div class="inscribirme mt-3">
-                                        <button disabled class="btn btn-primary" data-toggle="modal"
-                                            data-target="#henequen">Inscribirme</button>
+                                       {{--  <button disabled class="btn btn-primary" data-toggle="modal"
+                                            data-target="#henequen">Inscribirme</button> --}}
                                     </div>
                                 @else
                                     <div class="inscribirme mt-3">
-                                        <button class="btn btn-primary" data-toggle="modal"
-                                            data-target="#henequen">Inscribirme</button>
+                                       {{--  <button class="btn btn-primary" data-toggle="modal"
+                                            data-target="#henequen">Inscribirme</button> --}}
                                     </div>
                                 @endif
                             </div>
@@ -573,13 +573,13 @@
 
                                 @if (session('register') || $count_henequen == 60)
                                     <div class="inscribirme mt-3">
-                                        <button disabled class="btn btn-primary" data-toggle="modal"
-                                            data-target="#henequen">Inscribirme</button>
+                                       {{--  <button disabled class="btn btn-primary" data-toggle="modal"
+                                            data-target="#henequen">Inscribirme</button> --}}
                                     </div>
                                 @else
                                     <div class="inscribirme mt-3">
-                                        <button class="btn btn-primary" data-toggle="modal"
-                                            data-target="#henequen">Inscribirme</button>
+                                      {{--   <button class="btn btn-primary" data-toggle="modal"
+                                            data-target="#henequen">Inscribirme</button> --}}
                                     </div>
                                 @endif
                             </div>
@@ -758,13 +758,13 @@
 
                                 @if (session('register') || $count_henequen == 60)
                                     <div class="inscribirme mt-3">
-                                        <button disabled class="btn btn-primary" data-toggle="modal"
-                                            data-target="#henequen">Inscribirme</button>
+                                       {{--  <button disabled class="btn btn-primary" data-toggle="modal"
+                                            data-target="#henequen">Inscribirme</button> --}}
                                     </div>
                                 @else
                                     <div class="inscribirme mt-3">
-                                        <button class="btn btn-primary" data-toggle="modal"
-                                            data-target="#henequen">Inscribirme</button>
+                                       {{--  <button class="btn btn-primary" data-toggle="modal"
+                                            data-target="#henequen">Inscribirme</button> --}}
                                     </div>
                                 @endif
                             </div>
