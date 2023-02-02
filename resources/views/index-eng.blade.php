@@ -383,17 +383,16 @@
                                 <li>wear a hat to protect from the sun</li>
                                 <li>Wear Sunscreen</li>
                                 <li>Wear Comfortable shoes</li>
-                                <li>Bring bathing suit and a towell</li>
 
                                 @if (session('register'))
                                     <div class="inscribirme mt-3">
-                                        {{-- <button disabled class="btn btn-primary" data-toggle="modal"
-                                            data-target="#henequen">Sign up</button> --}}
+                                        <button disabled class="btn btn-primary" data-toggle="modal"
+                                            data-target="#henequen">Sign up</button>
                                     </div>
                                 @else
                                     <div class="inscribirme mt-3">
-                                       {{--  <button class="btn btn-primary" data-toggle="modal"
-                                            data-target="#henequen">Sign up</button> --}}
+                                        <button class="btn btn-primary" data-toggle="modal"
+                                            data-target="#henequen">Sign up</button>
                                     </div>
                                 @endif
                             </div>
@@ -584,17 +583,16 @@
                                 <li>wear a hat to protect from the sun</li>
                                 <li>Wear Sunscreen</li>
                                 <li>Wear Comfortable shoes</li>
-                                <li>Bring bathing suit and a towell</li>
 
                                 @if (session('register'))
                                     <div class="inscribirme mt-3">
-                                        {{-- <button disabled class="btn btn-primary" data-toggle="modal"
-                                            data-target="#henequen">Sign up</button> --}}
+                                        <button disabled class="btn btn-primary" data-toggle="modal"
+                                            data-target="#henequen">Sign up</button>
                                     </div>
                                 @else
                                     <div class="inscribirme mt-3">
-                                       {{--  <button class="btn btn-primary" data-toggle="modal"
-                                            data-target="#henequen">Sign up</button> --}}
+                                        <button class="btn btn-primary" data-toggle="modal"
+                                            data-target="#henequen">Sign up</button>
                                     </div>
                                 @endif
                             </div>
@@ -785,17 +783,16 @@
                                 <li>wear a hat to protect from the sun</li>
                                 <li>Wear Sunscreen</li>
                                 <li>Wear Comfortable shoes</li>
-                                <li>Bring bathing suit and a towell</li>
 
                                 @if (session('register'))
                                     <div class="inscribirme mt-3">
-                                       {{--  <button disabled class="btn btn-primary" data-toggle="modal"
-                                            data-target="#henequen">Sign up</button> --}}
+                                        <button disabled class="btn btn-primary" data-toggle="modal"
+                                            data-target="#henequen">Sign up</button>
                                     </div>
                                 @else
                                     <div class="inscribirme mt-3">
-                                        {{-- <button class="btn btn-primary" data-toggle="modal"
-                                            data-target="#henequen">Sign up</button> --}}
+                                        <button class="btn btn-primary" data-toggle="modal"
+                                            data-target="#henequen">Sign up</button>
                                     </div>
                                 @endif
                             </div>
