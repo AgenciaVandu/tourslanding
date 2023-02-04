@@ -192,7 +192,7 @@
                         <div class="text-center boton-enviar">
                             <button type="submit" class="btn btn-primary">Send</button>
                         </div>
-                        
+
                     </form>
                 </div>
                 <div class="modal-footer">
@@ -384,7 +384,7 @@
                                 <li>Wear Sunscreen</li>
                                 <li>Wear Comfortable shoes</li>
 
-                                @if (session('register'))
+                                @if (session('register') || $count_henequen == 60)
                                     <div class="inscribirme mt-3">
                                         <button disabled class="btn btn-primary" data-toggle="modal"
                                             data-target="#henequen">Sign up</button>
@@ -434,7 +434,7 @@
                                 </li>
                                 <li>Bring bathing suit and a towell</li>
 
-                                @if (session('register'))
+                                @if (session('register') || $count_milpa == 50)
                                     <div class="inscribirme mt-3">
                                         <button disabled class="btn btn-primary" data-toggle="modal"
                                             data-target="#milpa">Sign up</button>
@@ -463,7 +463,7 @@
                                 <h1 class="titular-ruta">BLUE TOUR </h1>
                                 <li>8:00 am Departure from Villa Mercedes hotel</li>
                                 <li>
-                                    9:00 am Arrival to Sissal, Chalanas experience (small boats) 
+                                    9:00 am Arrival to Sissal, Chalanas experience (small boats)
 
                                 </li>
                                 <li>14:00 pm Lunch at Sisal’s Dock</li>
@@ -484,7 +484,7 @@
                                 <li>Bring bathing suit and a towell
                                 </li>
 
-                                @if (session('register'))
+                                @if (session('register') || $count_azul == 50)
                                     <div class="inscribirme mt-3">
                                         <button disabled class="btn btn-primary" data-toggle="modal"
                                             data-target="#azul">Sign up</button>
@@ -534,7 +534,7 @@
                                     Experience not recommended for claustrophobic people
                                 </li>
 
-                                @if (session('register'))
+                                @if (session('register') || $count_puuc == 40)
                                     <div class="inscribirme mt-3">
                                         <button disabled class="btn btn-primary" data-toggle="modal"
                                             data-target="#puuc">Sign up</button>
@@ -663,7 +663,7 @@
                                 <h1 class="titular-ruta">BLUE TOUR </h1>
                                 <li>8:00 am Departure from Villa Mercedes hotel</li>
                                 <li>
-                                    9:00 am Arrival to Sissal, Chalanas experience (small boats) 
+                                    9:00 am Arrival to Sissal, Chalanas experience (small boats)
 
                                 </li>
                                 <li>14:00 pm Lunch at Sisal’s Dock</li>
@@ -863,7 +863,7 @@
                                 <h1 class="titular-ruta">BLUE TOUR </h1>
                                 <li>8:00 am Departure from Villa Mercedes hotel</li>
                                 <li>
-                                    9:00 am Arrival to Sissal, Chalanas experience (small boats) 
+                                    9:00 am Arrival to Sissal, Chalanas experience (small boats)
 
                                 </li>
                                 <li>14:00 pm Lunch at Sisal’s Dock</li>
