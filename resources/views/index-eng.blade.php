@@ -113,7 +113,7 @@
                             <label class="form-check-label" for="exampleCheck1">I want you to contact me with more information</label>
                         </div>
 
-                        <input type="hidden" name="tour_route" value="Enequen">
+                        <input type="hidden" name="tour_route" value="Henequen">
                         <div class="text-center boton-enviar">
                             <button type="submit" class="btn btn-primary">Enviar</button>
                         </div>
@@ -188,7 +188,7 @@
                             <label class="form-check-label" for="exampleCheck1">I want you to contact me with more information</label>
                         </div>
 
-                        <input type="hidden" name="tour_route" value="Enequen">
+                        <input type="hidden" name="tour_route" value="Milpa">
                         <div class="text-center boton-enviar">
                             <button type="submit" class="btn btn-primary">Send</button>
                         </div>
@@ -264,7 +264,7 @@
                             <label class="form-check-label" for="exampleCheck1">I want you to contact me with more information</label>
                         </div>
 
-                        <input type="hidden" name="tour_route" value="Enequen">
+                        <input type="hidden" name="tour_route" value="Azul">
                         <div class="text-center boton-enviar">
                             <button type="submit" class="btn btn-primary">Send</button>
                         </div>
@@ -339,7 +339,7 @@
                             <label class="form-check-label" for="exampleCheck1">I want you to contact me with more information</label>
                         </div>
 
-                        <input type="hidden" name="tour_route" value="Enequen">
+                        <input type="hidden" name="tour_route" value="Puuc">
                         <div class="text-center boton-enviar">
                             <button type="submit" class="btn btn-primary">Send</button>
                         </div>
