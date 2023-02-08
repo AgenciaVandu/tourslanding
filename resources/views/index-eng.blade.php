@@ -684,7 +684,7 @@
                                 <li>Bring bathing suit and a towell
                                 </li>
 
-                                @if (session('register'))
+                                @if (session('register')  || $count_azul >= 50)
                                     <div class="inscribirme mt-3">
                                         <button disabled class="btn btn-primary" data-toggle="modal"
                                             data-target="#azul">Sign up</button>
@@ -734,7 +734,7 @@
                                     Experience not recommended for claustrophobic people
                                 </li>
 
-                                @if (session('register')  || $count_zul >= 50)
+                                @if (session('register')  || $count_puuc >= 40)
                                     <div class="inscribirme mt-3">
                                         <button disabled class="btn btn-primary" data-toggle="modal"
                                             data-target="#puuc">Sign up</button>
@@ -834,7 +834,7 @@
                                 </li>
                                 <li>Bring bathing suit and a towell</li>
 
-                                @if (session('register')  || $count_milpa >= 40)
+                                @if (session('register')  || $count_milpa >= 50)
                                     <div class="inscribirme mt-3">
                                         <button disabled class="btn btn-primary" data-toggle="modal"
                                             data-target="#milpa">Sign up</button>
@@ -884,7 +884,7 @@
                                 <li>Bring bathing suit and a towell
                                 </li>
 
-                                @if (session('register')  || $count_azul >= 40)
+                                @if (session('register')  || $count_azul >= 50)
                                     <div class="inscribirme mt-3">
                                         <button disabled class="btn btn-primary" data-toggle="modal"
                                             data-target="#azul">Sign up</button>
