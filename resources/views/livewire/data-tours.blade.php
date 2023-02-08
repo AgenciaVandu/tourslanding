@@ -96,7 +96,7 @@
                                             {{ $count_puuc }}</td>
                                         <td
                                             class="whitespace-nowrap px-2 py-2 text-sm text-center font-medium text-gray-900">
-                                            {{ number_format(($count_puuc * 100) / 50, 0) }}%</td>
+                                            {{ number_format(($count_puuc * 100) / 40, 0) }}%</td>
                                         <td
                                             class="relative whitespace-nowrap py-2 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
                                             <a wire:click="selectTour('puuc')"
